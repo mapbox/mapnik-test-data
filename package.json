@@ -1,19 +1,11 @@
 {
   "name": "mapnik-test-data",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Data for testing as Mapnik sources",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./package.json",
   "repository": {
     "type": "git",
     "url": "https://github.com/mapbox/mapnik-test-data.git"
   },
   "author": "Carol B. Hansen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mapbox/mapnik-test-data/issues"
-  },
-  "homepage": "https://github.com/mapbox/mapnik-test-data"
 }
