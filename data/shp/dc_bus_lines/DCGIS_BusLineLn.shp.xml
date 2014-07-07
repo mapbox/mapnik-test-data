@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation Sync="TRUE">
+			<citeinfo>
+				<origin>Washington Metropolitan Area Transit Authority</origin>
+				<pubdate>10/19/06</pubdate>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<lworkcit>
+					<citeinfo Sync="TRUE">
+						<origin>DC GIS</origin>
+						<title>DC Geographic Information System</title>
+						<geoform>vector digital data</geoform>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">DCGIS_BusLineLn</ftname><title Sync="TRUE">DCGIS_BusLineLn</title><onlink Sync="TRUE">\\OJSFILE\OCTODATA$\GIS\SPATIAL_DATA\DataCatalog\DCGIS_BusLineLn.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>WMATA Metro Bus Lines.  The dataset contains locations and attributes of metro bus lines, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies.
+
+A shapefile provided by WMATA identified bus lines.  A WMATA bus line represents a series of routes that comprise a complete public transportation bus line.  Although the lines are captured and segmented at the internal WMATA line number (as opposed to the route number), the layer contains the most recent route delineation and attribution available.
+
+All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.
+
+METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE.</abstract>
+			<purpose Sync="TRUE">This data is used for the planning and management of Washington, D.C. by local government agencies.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd Sync="TRUE">
+			<timeinfo>
+				<sngdate Sync="TRUE">
+					<caldate>10/19/06</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-77.478769</westbc>
+				<eastbc Sync="TRUE">-76.668192</eastbc>
+				<northbc Sync="TRUE">39.204037</northbc>
+				<southbc Sync="TRUE">38.597746</southbc>
+			</bounding>
+			<dsgpoly>
+				<dsgpolyo>
+					<grngpoin></grngpoin>
+				</dsgpolyo>
+			</dsgpoly>
+			<lboundng><leftbc Sync="TRUE">358646.326851</leftbc><rightbc Sync="TRUE">428659.757662</rightbc><bottombc Sync="TRUE">103460.922507</bottombc><topbc Sync="TRUE">170656.930875</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Public transportation</themekey><themekey>Transit</themekey><themekey>Bus Route</themekey><themekey>Line</themekey></theme>
+			<place>
+				<placekey Sync="TRUE">Washington, D.C.</placekey>
+				<placekey Sync="TRUE">District of Columbia</placekey>
+				<placekey>DC</placekey>
+				<placekey>DC GIS</placekey>
+				<placekey>DCGIS</placekey>
+			</place>
+		</keywords>
+		<accconst Sync="TRUE">Contact OCTO GIS. Any data obtained outside of OCTO GIS are unauthorized copies.</accconst>
+		<useconst>Data cannot be redistributed in any manner without written authorization.  OCTO makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a  particular use, nor are any such warranties to be implied or inferred with respect to the information or data furnished herein.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp Name="AbraLicenseePt">
+					<cntorg>Washington Metropolitan Area Transit Authority</cntorg>
+					<cntper>James McBride</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>7th Floor B Corridor, 600 Fifth Street, NW</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country></cntaddr>
+				<cntemail>jmcbride@wmata.com</cntemail>
+				<hours>9am - 5pm</hours>
+				<cntvoice>202-962-2589</cntvoice></cntinfo>
+		</ptcontac>
+		<datacred>Washington Metropolitan Area Transit Authority</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Validated by source and/or responsible agency.  WMATA internal data capture and business process attribution was removed from the original file.  Only line name, type, direction, etc was kept.</attraccr>
+		</attracc>
+		<logic>Validated by source and/or responsible agency.</logic>
+		<complete>Validated by source and/or responsible agency.</complete>
+		<posacc Sync="TRUE">
+			<horizpa>
+				<horizpar>Generally follows the street centerlines but was not captured to the DC GIS snapbase.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>N/A</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep><procdesc>WMATA digitized the bus lines using in-house, MAPINFO based viewer and digitization software that is part of their scheduling system.  The linework was fitted to the NAVTEQ regional streets file.  WMATA supplied the file in MAPINFO format to the District and the Office of Planning converted it to a shapefile.</procdesc><srcused Sync="TRUE">C:\OCTOGIS\Data\Metadata\TemplateDCStat</srcused><date Sync="TRUE">20040823</date><time Sync="TRUE">16453900</time><proccont><cntinfo><cntorgp><cntorg>WMATA</cntorg><cntper>Jim McBride</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>7th Floor B Corridor, 600 Fifth Street, NW</address><city>Washington</city><state>DC</state><postal>20001</postal><country>USA</country></cntaddr><cntemail>jmcbride@wmata.com</cntemail><hours>9am - 5pm</hours><cntvoice>202-962-2589</cntvoice></cntinfo></proccont><procdate>03/31/06</procdate></procstep><srcinfo><srccite><citeinfo><origin>Washington Metropolitan Area Transit Authority</origin><pubdate>2006</pubdate><title>WMATA Bus Lines</title><onlink>http://www.wmata.com</onlink></citeinfo></srccite><typesrc>shapefile</typesrc><srccitea>Bus Lines</srccitea><srccontr>Location and attribution</srccontr></srcinfo><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">E:\DCGISDATA_WORKSPACE\Metadata\TemplateDCGIS.shp.xml</srcused><date Sync="TRUE">20050719</date><time Sync="TRUE">15480500</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">E:\DCGISDATA_WORKSPACE\Metadata\Metadata_Template_Open_DCGIS.shp.xml</srcused><date Sync="TRUE">20060531</date><time Sync="TRUE">11145100</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">E:\DCGISDATA_WORKSPACE\WMATA\Bus\BusLineLn_old.shp.xml</srcused><date Sync="TRUE">20061019</date><time Sync="TRUE">11013800</time></procstep><procstep><procdesc>WMATA provided updated bus lines in shapefile format which  DC GIS staff merged the files into one layer.</procdesc><proccont><cntinfo><cntorgp><cntorg>Office of  the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>441 4th St NW, Suite 930 South</address><city>Washington</city><state>DC</state><postal>20001</postal><country>USA</country></cntaddr><cntfax>202-727-5660</cntfax><cntemail>dcgis@dc.gov</cntemail><hours>8:30am - 5:30pm</hours></cntinfo></proccont><procdate>10/19/06</procdate></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="DCGIS_BusLineLn">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="DCGIS_BusLineLn"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000034</absres>
+						<ordres Sync="TRUE">0.000034</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">State Plane Coordinate System 1983</gridsysn><spcs><spcszone Sync="TRUE">1900</spcszone><lambertc><stdparll Sync="TRUE">38.300000</stdparll><stdparll Sync="TRUE">39.450000</stdparll><longcm Sync="TRUE">-77.000000</longcm><latprjo Sync="TRUE">37.666667</latprjo><feast Sync="TRUE">400000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></spcs></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="DCGIS_BusLineLn">
+			<attr><attrlabl Sync="TRUE">DIRECTION1</attrlabl><attalias Sync="TRUE">DIRECTION1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef>Bus Line Direction name 2</attrdef></attr><enttyp>
+				<enttypl Sync="TRUE">DCGIS_BusLineLn</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">DIRECTIONN</attrlabl><attalias Sync="TRUE">DIRECTIONN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef>Bus Line Direction name</attrdef></attr><attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">7</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">LINEABBR</attrlabl><attalias Sync="TRUE">LINEABBR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><attrdef>Bus line internal unique identifier</attrdef></attr><attr><attrlabl Sync="TRUE">LINENAME</attrlabl><attalias Sync="TRUE">LINENAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Bus Line Name and Route Number(s)</attrdef></attr><attr><attrlabl Sync="TRUE">USERSTRING</attrlabl><attalias Sync="TRUE">USERSTRING</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Bus Line Name Abbreviation</attrdef></attr><attr><attrlabl Sync="TRUE">USERSTRIN1</attrlabl><attalias Sync="TRUE">USERSTRIN1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef>Bus Line Number</attrdef></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country></cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5:30 pm</hours>
+				<cntorgp><cntorg>DC Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp></cntinfo>
+		</distrib>
+		<distliab>OCTO makes no claims as to the completeness, accuracy or content of any data contained hereon, and makes no representation of any kind, including, but not limited to, the warranty of the accuracy or fitness for a particular use, nor are any such warranties to be implied or inferred, with respect to the information or data furnished herein. Subject to terms and conditions of the Memorandum of Agreement. Memorandum of Agreement must have authorized signature.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.000</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka></networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<ordering>Most DC GIS datasets can be downloaded from "http://dcgis.dc.gov" on the data center page.  Orders can also be made by contacting OCTO GIS at "dcgis@dc.gov", especially for datasets not available for download.</ordering></stdorder>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20061023</metd>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>441 4th St NW, Suite 930 South</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20001</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntfax>(202) 727-5660</cntfax>
+				<cntemail>dcgis@dc.gov</cntemail>
+				<hours>8:30 am - 5 pm</hours>
+				<cntorgp><cntorg>D.C. Office of the Chief Technology Officer</cntorg><cntper>GIS Data Coordinator</cntper></cntorgp></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metrd>05/31/06</metrd><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">DCGIS_BusLineLn</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">358646.326851</westBL><eastBL Sync="TRUE">428659.757662</eastBL><northBL Sync="TRUE">170656.930875</northBL><southBL Sync="TRUE">103460.922507</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-77.478769</westBL><eastBL Sync="TRUE">-76.668192</eastBL><northBL Sync="TRUE">39.204037</northBL><southBL Sync="TRUE">38.597746</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\OJSFILE\OCTODATA$\GIS\SPATIAL_DATA\DataCatalog\DCGIS_BusLineLn.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_Maryland_FIPS_1900</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="DCGIS_BusLineLn"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><Esri><SyncDate>20061023</SyncDate><SyncTime>16400500</SyncTime><ModDate>20061023</ModDate><ModTime>16400500</ModTime><CreaDate>20061019</CreaDate><CreaTime>11013800</CreaTime><SyncOnce>FALSE</SyncOnce><MetaID>{F60EA467-2827-44A9-96A6-855C0C972F4E}</MetaID><DataProperties><lineage><Process Name="Dissolve_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20061019" Time="164101">Dissolve E:\DCGISDATA_WORKSPACE\WMATA\Bus\BusLineLn.shp E:\DCGISDATA_WORKSPACE\WMATA\Bus\BusLineLn_Dissolved.shp LINEABBR;LINENAME;USERSTRING;USERSTRIN1;DIRECTIONN;DIRECTION1 # MULTI_PART</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20061019" Time="175449">CopyFeatures E:\DCGISDATA_WORKSPACE\WMATA\Bus\BusLineLn.shp "Database Connections\DCGISCentral_Vector.sde\DCGIS.Metro\DCGIS.BusLineLn" DCGISDBP_S 5000 0 0</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20061023" Time="164006">CopyFeatures "Database Connections\DCGISCentral_Vector.sde\DCGIS.Metro\DCGIS.BusLineLn" G:\GIS\SPATIAL_DATA\DataCatalog\DCGIS_BusLineLn.shp # 0 0 0</Process></lineage></DataProperties></Esri><mdDateSt Sync="TRUE">20061023</mdDateSt></metadata>
