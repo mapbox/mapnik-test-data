@@ -1,6 +1,6 @@
 {
   "name": "mapnik-test-data",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Data for testing as Mapnik sources",
   "main": "./package.json",
   "repository": {
