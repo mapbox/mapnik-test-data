@@ -2,7 +2,7 @@
 
 To use as a dependency, add the following to your `package.json`:
 ```
-"mapnik-test-data":"https://mapbox-npm.s3.amazonaws.com/package/mapnik-test-data-2.1.0-04476a347181c625e3356e2e56f8e2f43e134260.tgz"
+"mapnik-test-data":"https://mapbox-npm.s3.amazonaws.com/package/mapnik-test-data-2.1.1-d1476b261f018c28f08c573de3c9885386f52315.tgz"
 ```
 
 Then use in your js file like so:
